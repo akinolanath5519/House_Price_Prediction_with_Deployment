@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="bedrooms">Bedrooms:</label>
+        <input type="text" name="bedrooms" required><br>
+
+        <label for="bathrooms">Bathrooms:</label>
+        <input type="text" name="bathrooms" required><br>
+
+        <label for="sqft_living">Sqft Living:</label>
+        <input type="text" name="sqft_living" required><br>
+
+        <label for="sqft_lot">Sqft Lot:</label>
+        <input type="text" name="sqft_lot" required><br>
+
+        <label for="floors">Floors:</label>
+        <input type="text" name="floors" required><br>
+
+        <label for="waterfront">Waterfront:</label>
+        <input type="text" name="waterfront" required><br>
+
+        <label for="view">View:</label>
+        <input type="text" name="view" required><br>
+
+        <label for="condition">Condition:</label>
+        <input type="text" name="condition" required><br>
+
+        <label for="sqft_above">Sqft Above:</label>
+        <input type="text" name="sqft_above" required><br>
+
+        <label for="sqft_basement">Sqft Basement:</label>
+        <input type="text" name="sqft_basement" required><br>
+
+        <label for="yr_built">Year Built:</label>
+        <input type="text" name="yr_built" required><br>
+
+        <label for="yr_renovated">Year Renovated:</label>
+        <input type="text" name="yr_renovated" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
